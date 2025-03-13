@@ -1,0 +1,80 @@
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+
+.b-main{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100px; 
+}
+
+.b-main:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.flip-text {
+  transform: rotate(90deg);
+  transform-origin: left top; 
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+
+.image-container {
+  display: flex;
+  width: 50%; /* 50% of the width of the page */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+.main-black {
+  background-color: black;
+  color: white; 
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;   
+}
+
+.p-main{
+  font-weight: 200;
+  font-size: 0.9em
+}
+
+.t-main{
+  font-weight: 400
+}
+
+.b-mt{
+  margin-top: -10px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero > .container {
+  position: relative;
+  z-index: 1;
+}
